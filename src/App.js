@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className="App w-100 d-flex justify-content-evenly align-items-center m ">
+    <div className="App  d-flex justify-content-between align-items-center ">
      
       <FormInput
         values={values}
