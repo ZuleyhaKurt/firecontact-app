@@ -5,9 +5,10 @@ const FormInput = ({ handlesubmit, values, setValues }) => {
     const { name, value } = event.target;
     setValues({ ...values, [name]: value });
   };
+
   return (
-    <div className="w-25 ml-5  p-5">
-      <h3>ADD CONTACT</h3>
+    <div className="w-25 p-5">
+      <h3 className="bg-light mb-3">ADD CONTACT</h3>
       <Form onSubmit={handlesubmit}>
         <Form.Group className="mb-3">
           <Form.Control
@@ -41,7 +42,7 @@ const FormInput = ({ handlesubmit, values, setValues }) => {
           </Form.Select>
         </Form.Group>
 
-        <Button type="submit">Add</Button>
+        <Button className="w-100 m-auto" type="submit">Add</Button>
       </Form>
     </div>
   );
