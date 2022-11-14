@@ -7,8 +7,8 @@ const FormInput = ({ handlesubmit, values, setValues }) => {
   };
 
   return (
-    <div className=" " style={{width:"300px"}} >
-      <h3 className="bg-light mb-3 text-center rounded-2">ADD CONTACT</h3>
+    <div className=" " style={{width:"250px"}} >
+      <h3 className="bg-light mb-3 mt-3  text-center rounded-2">ADD CONTACT</h3>
       <div className="bg-light p-3">
       <Form onSubmit={handlesubmit}>
         <Form.Group className="mb-3">

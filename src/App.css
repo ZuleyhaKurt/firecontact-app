@@ -1,17 +1,16 @@
 .App{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     
   
 }
-@media (max-width:556px) {
-    .contact{
-        max-width: 500px;
-        min-width: 200px;
-    }
+@media  (min-width:290px) and (max-width:556px) {
+
     .tables{
-        max-width: 500px !important;
-        min-width: 200px !important;
+       max-width:90% !important;
+       min-width: 60% !important;
+        font-size: 0.8rem !important;
+
     }
     
 }

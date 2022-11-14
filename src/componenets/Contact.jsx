@@ -6,11 +6,11 @@ function Contact({ handleUserEdit }) {
   const { contactList } = GetUser();
 
   return (
-    <div className="contact" >
-      <h3 className="text-center bg-light mb-3 rounded-2">CONTACTS</h3>
+    <div className="contact " >
+      <h3 className="text-center bg-light mb-3 rounded-2"  >CONTACTS</h3>
      
-      <Table striped bordered hover className="bg-light ">
-        <thead>
+      <Table striped bordered hover  className="bg-light tables " >
+        <thead >
           <tr>
             <th>UserName</th>
             <th>Phone Number</th>
@@ -19,7 +19,7 @@ function Contact({ handleUserEdit }) {
             <th>Delete</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody >
           {contactList?.map((element, index) => {
             return (
               <tr key={index}>
@@ -42,7 +42,7 @@ function Contact({ handleUserEdit }) {
                   </button>
                 </td>
                 <td>
-                  <button onClick={() => DeleteUser(element.id)}>
+                  <button className="border-none outline-none" onClick={() => DeleteUser(element.id)}>
                     <DeleteBtn />
                   </button>
                 </td>

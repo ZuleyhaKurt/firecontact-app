@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className="App m-5 d-flex flex-lg-row flex-md-column  flex-sm-column flex-column gap-5 justify-content-between align-items-center  ">
+    <div className="App mb-5 mt-5 d-flex flex-lg-row flex-md-column  flex-sm-column flex-column gap-5 justify-content-lg-evenly align-items-center justify-content-md-center justify-content-sm-center justify-content-xs-center ">
      
       <FormInput
         values={values}
