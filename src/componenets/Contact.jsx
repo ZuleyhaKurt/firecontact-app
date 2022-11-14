@@ -6,9 +6,10 @@ function Contact({ handleUserEdit }) {
   const { contactList } = GetUser();
 
   return (
-    <div className="w-50 ">
-      <h3 className="text-center bg-light mb-3">CONTACTS</h3>
-      <Table striped bordered hover className="bg-light">
+    <div className="contact" >
+      <h3 className="text-center bg-light mb-3 rounded-2">CONTACTS</h3>
+     
+      <Table striped bordered hover className="bg-light ">
         <thead>
           <tr>
             <th>UserName</th>
@@ -49,8 +50,9 @@ function Contact({ handleUserEdit }) {
             );
           })}
         </tbody>
-      </Table>
-    </div>
+        </Table>
+        </div>
+    
   );
 }
 

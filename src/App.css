@@ -1,5 +1,17 @@
 .App{
-    width: 90%;
-    margin : 10rem auto;
-    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+    
+  
+}
+@media (max-width:556px) {
+    .contact{
+        max-width: 500px;
+        min-width: 200px;
+    }
+    .tables{
+        max-width: 500px !important;
+        min-width: 200px !important;
+    }
+    
 }

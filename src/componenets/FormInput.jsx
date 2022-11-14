@@ -7,8 +7,9 @@ const FormInput = ({ handlesubmit, values, setValues }) => {
   };
 
   return (
-    <div className="w-25 p-5">
-      <h3 className="bg-light mb-3">ADD CONTACT</h3>
+    <div className=" " style={{width:"300px"}} >
+      <h3 className="bg-light mb-3 text-center rounded-2">ADD CONTACT</h3>
+      <div className="bg-light p-3">
       <Form onSubmit={handlesubmit}>
         <Form.Group className="mb-3">
           <Form.Control
@@ -43,7 +44,8 @@ const FormInput = ({ handlesubmit, values, setValues }) => {
         </Form.Group>
 
         <Button className="w-100 m-auto" type="submit">Add</Button>
-      </Form>
+        </Form>
+        </div>
     </div>
   );
 };
